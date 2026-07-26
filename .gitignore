@@ -1,0 +1,12 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated experiment artifacts
+data/
+outputs/
+
+# Local credential-bearing configuration
+configs/baidu_search.json
