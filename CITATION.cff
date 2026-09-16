@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use CNGEO, please cite the accompanying paper."
+title: "CNGEO"
+type: dataset
+authors:
+
+- family-names: "Li"
+  given-names: "Tong"
+- family-names: "Wu"
+  given-names: "Rongbang"
+- family-names: "Li"
+  given-names: "Qinghao"
+- family-names: "Jia"
+  given-names: "Gui"
+- family-names: "Gao"
+  given-names: "Xiangyu"
+- family-names: "Fan"
+  given-names: "Ju"
+- family-names: "Xu"
+  given-names: "Ke"
+repository-code: "https://github.com/litonglab/CNGEO"
+
+preferred-citation:
+  type: article
+  title: "Chinese Generative Engine Optimization"
+  authors:
+    - family-names: "Li"
+      given-names: "Tong"
+    - family-names: "Wu"
+      given-names: "Rongbang"
+    - family-names: "Li"
+      given-names: "Qinghao"
+    - family-names: "Jia"
+      given-names: "Gui"
+    - family-names: "Gao"
+      given-names: "Xiangyu"
+    - family-names: "Fan"
+      given-names: "Ju"
+    - family-names: "Xu"
+      given-names: "Ke"
+  journal: "Journal of Software"
+  year: 2026

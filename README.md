@@ -2,8 +2,6 @@
 
 CNGEO is a Chinese-language question dataset for research on Generative Engine Optimization (GEO). This release contains 600 questions across six domains, with 100 questions in each domain.
 
-This public release contains the core experiment pipeline only. One-off data repair utilities, private input conversion code, debug artifacts, and final paper-specific table or figure generation code are intentionally excluded.
-
 ## Dataset
 
 | Domain | Domain code | File | Questions |
@@ -178,8 +176,6 @@ The script writes:
 - `data/metrics.jsonl`: condition-level metrics after averaging the five runs
 - `outputs/reports/`: aggregate reports with 2,000-replicate Bootstrap confidence intervals
 
-Final paper-specific table and figure generation code is intentionally excluded from this public release.
-
 ## Quick Dataset Usage
 
 ```python
@@ -210,11 +206,23 @@ print(queries["domain"].value_counts())
 
 ## Citation
 
-If you use CNGEO in academic work, please cite the accompanying paper. Formal citation information will be added when publication details are available.
+If you use CNGEO in your research, please cite our paper:
+
+```bibtex
+@article{li2026cngeo,
+  title   = {Chinese Generative Engine Optimization},
+  author  = {Li, Tong and Wu, Rongbang and Li, Qinghao and Jia, Gui and Gao, Xiangyu and Fan, Ju and Xu, Ke},
+  journal = {Journal of Software},
+  year    = {2026},
+  note    = {Accepted, to appear}
+}
+```
+
+The citation will be updated with volume, issue, pages, and DOI once the final publication information becomes available.
 
 ## License
 
-License information will be added before the public release.
+The source code, prompts, and dataset in this repository are released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Disclaimer
 
